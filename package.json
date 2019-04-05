@@ -1,26 +1,18 @@
 {
-  "name": "grunt-jsvalidate",
+  "name": "@gosign/grunt-esprimavalidate",
   "description": "Validate JavaScript source.",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/ariya/grunt-jsvalidate",
-  "author": {
-    "name": "Ariya Hidayat",
-    "email": "ariya.hidayat@gmail.com",
-    "url": "http://ariya.ofilabs.com"
-  },
+  "author": "Usman Ahmad <usman.ahmad@gosign.de> (http://data5.science)",
   "contributors": [
-    {
-      "name": "James M. Greene",
-      "email": "james.m.greene@gmail.com",
-      "url": "http://jamesgreene.net/"
-    }
+    "James M. Greene <james.m.greene@gmail.com> (http://jamesgreene.net/)"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ariya/grunt-jsvalidate.git"
+    "url": "git@github.com:dextar1/grunt-jsvalidate.git"
   },
   "bugs": {
-    "url": "https://github.com/ariya/grunt-jsvalidate/issues"
+    "url": "https://github.com/dextar1/grunt-jsvalidate/issues"
   },
   "licenses": [
     {
@@ -29,7 +21,9 @@
     }
   ],
   "main": "Gruntfile.js",
-  "bin": "bin/grunt-jsvalidate",
+  "bin": {
+    "grunt-esprimavalidate": "bin/grunt-esprimavalidate"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -51,5 +45,9 @@
     "parser",
     "validate",
     "esprima"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
