@@ -1,7 +1,7 @@
 {
   "name": "@gosign/grunt-esprimavalidate",
   "description": "Validate JavaScript source.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/ariya/grunt-jsvalidate",
   "author": "Usman Ahmad <usman.ahmad@gosign.de> (http://data5.science)",
   "contributors": [
