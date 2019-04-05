@@ -22,7 +22,7 @@
   ],
   "main": "Gruntfile.js",
   "bin": {
-    "grunt-jsvalidate": "bin/grunt-jsvalidate"
+    "grunt-esprimavalidate": "bin/grunt-esprimavalidate"
   },
   "engines": {
     "node": ">= 0.8.0"
